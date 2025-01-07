@@ -14,5 +14,4 @@ class Player(CircleShape):
         return [a, b, c]
     
     def draw(self, screen):
-        # raise Exception(self.triangle())
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
